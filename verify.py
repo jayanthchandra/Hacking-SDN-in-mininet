@@ -1,14 +1,14 @@
 def boringstuf():
 
-    #fname1 = input("main conf file : ")
-    #fname2 = input("client conf file: ")
+    fname1 = input("main conf file : ")
+    fname2 = input("client conf file: ")
 
    
-    f1 = open("f1.txt")
-    f2 = open("f2.txt")
+    f1 = open(fname1)
+    f2 = open(fname2)
 
 
-    #print("Comparing files ", " > " + fname1, " < " +fname2)
+    print("Comparing files ", " > " + fname1, " < " +fname2)
     
     f1_line = f1.readline()
     f2_line = f2.readline()
