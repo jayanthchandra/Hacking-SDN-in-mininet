@@ -15,15 +15,15 @@ def LDAPOp():
 	#lookup!
 	c=int(raw_input())
 	if c == 1 :
-		FuckLDAPandControllr()
+		CreateConnection()
 	if c == 2 :
 		AddElements()
 	if c == 3:
 		Modifycredentials()
 	if c == 4:
-		HookORLookup()
+		DirectorySearch()
 	if c == 5:
-		DieFuckers()
+		ConnectionTerminate()
 
 
 
